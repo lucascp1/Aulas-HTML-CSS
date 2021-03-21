@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.bg-img{
+    background-image: url(background_00.jpg);
+    background-size: cover;
+}
+
+.cabecalho{
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+}
+
+.cabecalho .caixa {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.cabecalho img{    
+    height: 70px;
+    float: left;
+    margin-top: 10px;
+}
+
+.cabecalho nav{
+    float: right;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.p-text{
+    color: white;
+    margin-top: 360px;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}

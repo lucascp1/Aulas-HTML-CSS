@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    height: 80px;
+    border-bottom: 5px solid orangered;
+}
+
+.div-barra{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.div-barra span{
+    color: white;
+    float: left;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.div-barra span b{
+    color: orangered;
+}
+
+.div-barra nav{
+    float: right;
+    margin-top: 13px;
+}
+
+.div-barra ul{
+    color: white;
+    list-style: none;
+    font-size: 15px;
+}
+
+.div-barra ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+li:first-child{
+    color: orangered;
+}
+
+/* FIM HEADER */
+/* CONTEÚDO */
+
+.div-apresentacao{
+    background-image: url(bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    text-align: center;
+}
+
+.apresentacao-titulo {
+    color: orangered;
+    margin: 0;
+    padding-top: 70px;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.div-apresentacao p{
+    color: white;
+    padding: 10px 100px 0 100px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* FIM CONTEÚDO */
+/* NEWS */
+
+.div-atualizacoes{
+    background-color: rgb(33, 33, 33);
+    height: 100px;
+}
+
+.content-atualizacoes{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.div-atualizacoes h1{
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    float: left;
+    margin-top: 30px;
+}
+
+.div-inpbut{
+    float: right;
+    margin-top: 35px;
+}
+
+.div-atualizacoes input{ 
+    height: 30px;
+    width: 250px;
+    outline: none;
+    border: none;
+}
+
+.div-atualizacoes button{
+    height: 30px;
+    width: 80px;
+    margin-left: 5px;
+    background-color: orangered;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    background-color: tomato;
+}
+
+/* FIM NEWS */
+/* ICONS */
+
+.div-icons{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.div-icons img{
+    width: 80px;
+}
+
+.icons{
+    display: inline-block;
+    padding: 20px;
+}
+
+.icons p{
+    margin: 0;
+}
+
+/* FIM ICONS */
+/* FOOTER */
+
+.div-footer{
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    padding: 15px;
+}
+/* FIM FOOTER */

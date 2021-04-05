@@ -1,0 +1,43 @@
+.pag-cadastro{
+    width: 100%;
+    min-height: 700px;
+    background-color: #ecf0f1;
+}
+
+.container-cadastro{
+    float: left;
+    padding-left: 170px;
+}
+
+.container-cadastro h1{
+    padding: 20px 0 20px 0;
+}
+
+.input-cadastro{
+    margin-bottom: 20px;
+    outline: none;
+    padding: 8px 300px 8px 10px;
+}
+
+.div-img-cadastro{
+    float: right;
+}
+
+.img-cadastro{
+    width: 450px;
+    padding: 100px 80px 0 0;
+}
+
+.btn-cadastro{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+
+.container-cadastro b{
+    font-weight: 500;
+}
+

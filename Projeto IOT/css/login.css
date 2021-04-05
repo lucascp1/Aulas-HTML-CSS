@@ -1,0 +1,34 @@
+.pag-login{
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.box-login{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 3px 3px 5px 2px #ccc;
+    padding: 40px 20px 60px 20px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.input-padrao{
+    height: 30px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.pag-login .btn-green {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    border: none;
+}
+
+
+.div-footer{
+    min-height: 80px;
+}

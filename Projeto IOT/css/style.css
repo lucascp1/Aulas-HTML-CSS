@@ -47,7 +47,7 @@ header{
     margin-left: 20px;
 }
 
-li:first-child{
+.item-colorido{
     color: orangered;
 }
 
@@ -119,7 +119,7 @@ li:first-child{
     border: none;
 }
 
-button:hover{
+.div-atualizacoes button:hover{
     background-color: tomato;
 }
 

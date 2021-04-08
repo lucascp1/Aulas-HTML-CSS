@@ -1,4 +1,4 @@
-.pag-login{
+.container-login{
     background-color: #ecf0f1;
     text-align: center;
     padding: 50px 0;
@@ -19,7 +19,7 @@
     margin-bottom: 20px;
 }
 
-.pag-login .btn-green {
+.container-login .btn-green {
     background-color: green;
     color: white;
     border-radius: 5px;
